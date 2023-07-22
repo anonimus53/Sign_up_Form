@@ -25,7 +25,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 1;
+    flex: 1 1 0;
     width: 650px;
     height: 850px;
     background-image: url('pexels-luck-galindo-544268.jpg');
@@ -36,13 +36,19 @@ flex-direction: column;
     font-size: large;
 }
 #part1{
-    padding: 5%;
+    padding: 2% 0%;
     flex: 1 1 q;
     display: flex;
     align-items: end;
     font-size: xx-large;
-    color:azure;
-    background-color:rgb(17, 3, 31);
+    color:slateblue;
+    background-color:rgb(143, 13, 126);
+    border: solid black;
+    text-shadow:
+-1px 0px 0px red,
+1px 0px 0px red,
+0px -1px 0px red,
+0px 1px 0px red;color: yellow;
 }
 #part2{
     flex: 1 1 auto;
@@ -52,27 +58,38 @@ flex-direction: column;
     color:azure;
     padding: 5%;
     font-size: x-large;
+    border: solid black;
 }
 #part3{
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    background-color:rgb(17, 3, 31);
-    color:azure;
+    background-color:rgb(19, 19, 172);
+    color:fuchsia;
     padding: 5%;
     font-size: larger;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid black;
 }
 button{
+    max-width: 300px;
+    min-height: 40px;
+   
     margin: 2%;
     font-size: x-large;
+    background-color: blueviolet;
+    text-shadow:
+    -1px 0px 0px red,
+    1px 0px 0px red,
+    0px -1px 0px red,
+    0px 1px 0px red;color: yellow;
 }
 #credit{
     align-self: end;
     position: relative;
-    top: 600px;
+    top: 730px;
     right: 250px;
+    box-shadow: 0px 2px  #888888;
 }
 #logo{
     position: relative;
@@ -91,3 +108,53 @@ button{
     font-family: myFirstFont;
     src: url('Norse-Bold.otf');
   }
+  h3{
+    position: relative;
+    bottom: 50px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-style: italic;
+    text-shadow:
+-1px 0px 0px red,
+1px 0px 0px red,
+0px -1px 0px red,
+0px 1px 0px red;color: yellow;
+  }
+  a{
+    color:yellow;
+  }
+  #one{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    height: auto;
+  }
+  #two{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    height: auto;
+  }
+  #dad{
+    display:flex;
+    gap: 100px;
+
+  }
+  input{
+    height: 20px;
+    border-radius: 10%;
+    border:rgb(192, 79, 167) solid;
+    background-color:blueviolet;
+  }
+  label{
+    text-shadow:
+-1px 0px 0px red,
+1px 0px 0px red,
+0px -1px 0px red,
+0px 1px 0px red;color: yellow;
+  }
+  
+  
+  
