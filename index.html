@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" defer>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" type="text/css" href="style.css" >
     <title>Sign_Up_Form</title>
 </head>
 <body>
@@ -22,35 +22,35 @@
       <div id="part2">
         <h3>Let's do this!</h3>
       
-        <form >
+        <form id="forma">
           <div id="dad">
           <div id="one">
          <label for="name">FIRST NAME</label>
-         <input type="text" id="name">
+         <input type="text" id="name" name="firstname" placeholder="e.g.George">
           </div>
           <div id="two">
          <label for="surname">LAST NAME</label>
-         <input type="text" id="surname">
+         <input type="text" id="surname" name="lastname" placeholder="e.g.Brown">
           </div>
           </div>
           <div id="dad">
             <div id="one">
            <label for="email">EMAIL</label>
-           <input type="text" id="email">
+           <input type="email" id="email" name="email" placeholder="e.g.someone@gmail.com">
             </div>
             <div id="two">
            <label for="phone">PHONE NUMBER</label>
-           <input type="text" id="phone">
+           <input type="number" id="phone" name="phonenumber" placeholder="e.g.555-000">
             </div>
             </div>
             <div id="dad">
               <div id="one">
              <label for="password">PASSWORD</label>
-             <input class="error" type="text" id="password">
+             <input class="error" type="password" id="password" name="password">
               </div>
               <div id="two">
              <label for="confirm">CONFIRM PASSWORD</label>
-             <input class="error" type="text" id="confirm">
+             <input class="error" type="password" id="confirm" name="confirm">
               </div>
               </div>
     
